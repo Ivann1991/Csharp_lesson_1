@@ -5,40 +5,29 @@ if (usernum == 1)
 {
     Console.WriteLine(usernum + " -> понедельник");
 }
-else 
-{
-    if (usernum == 2)
+if (usernum == 2)
     {
-      Console.WriteLine(usernum + " -> вторник");  
+    Console.WriteLine(usernum + " -> вторник");  
     }
-    else
-    {
-        if (usernum == 3)
+if (usernum == 3)
     { 
-           Console.WriteLine(usernum + " -> среда"); 
+    Console.WriteLine(usernum + " -> среда"); 
     }
-    else
+if (usernum == 4)
     {
-        if (usernum == 4)
-        {
-            Console.WriteLine(usernum + " -> четверг"); 
-        }
-        else
-        {
-            if (usernum == 5)
-            {
-                Console.WriteLine(usernum + " -> пятница");
-            }
-            else
-            {
-                if (usernum == 6)
-            {
-                Console.WriteLine(usernum + " -> суббота");
-            }
-            else
-            {
-                Console.WriteLine(usernum + " -> воскресенье");
-            }
-            }
-        } 
-    }}}
+Console.WriteLine(usernum + " -> четверг"); 
+    }
+        
+if (usernum == 5)
+    {
+Console.WriteLine(usernum + " -> пятница");
+    }
+if (usernum == 6)
+    {
+Console.WriteLine(usernum + " -> суббота");
+    }    
+if (usernum == 7)     
+    {
+    Console.WriteLine(usernum + " -> воскресенье");
+    }
+   
